@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-.articulo {
+#articulo {
     width: 90%;
     max-width: 1000px;
     margin: 30px auto;
