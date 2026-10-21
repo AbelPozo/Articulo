@@ -1,3 +1,6 @@
+const sol = document.getElementById("sol");
+const luna = document.getElementById("luna");
+
 let oscuro = false;
 
 function DarkMode() {
@@ -6,11 +9,15 @@ function DarkMode() {
         document.getElementById("articulo").style.backgroundColor = "black";
         document.getElementById("articulo").style.color = "white";
         oscuro = true;
+        sol.hidden = true;
+        luna.hidden = false;
     } else {
         document.body.style.backgroundColor = "#f2f2f2";
         document.getElementById("articulo").style.backgroundColor = "white";
         document.getElementById("articulo").style.color = "black";
         oscuro = false;
+        sol.hidden = false;
+        luna.hidden = true;
     }
 };
 
